@@ -11,3 +11,21 @@ body {
 h1 {
   text-align: center;
 }
+
+.gallery_container {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 15.625rem;
+  padding: 20px;
+  grid-gap: 0.625rem;
+}
+
+.gallery_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery_item: nth-child();
