@@ -249,3 +249,19 @@ footer {
     grid-column-start: span 3;
   }
 }
+@media (max-width: 540px) {
+  h1 {
+    font-size: 1.5rem;
+    padding: 0.9375rem;
+  }
+  .container_index {
+    width: 90%;
+  }
+  .gallery_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .gallery_img .gallery_item {
+    height: 50vh;
+  }
+}
